@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
               </div>
               <nav className="hidden lg:flex items-center space-x-8">
                 <Link href="/elements" className="text-gray-700 hover:text-black text-sm font-medium">ELEMENTS</Link>
+                <Link href="/dynamic-components" className="text-gray-700 hover:text-black text-sm font-medium">DYNAMIC COMPONENTS</Link>
                 <Link href="/sections" className="text-gray-700 hover:text-black text-sm font-medium">SIMPLE SECTIONS</Link>
                 <Link href="/complex-sections" className="text-gray-700 hover:text-black text-sm font-medium">COMPLEX SECTIONS</Link>
                 <Link href="/forms" className="text-gray-700 hover:text-black text-sm font-medium">FORMS</Link>
