@@ -177,7 +177,7 @@ export default function FormsPage() {
                   value={contactForm.message}
                   onChange={(e) => setContactForm({...contactForm, message: e.target.value})}
                   className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-black focus:border-transparent transition-colors duration-200 resize-none"
-                  placeholder="Tell us about your project requirements, timeline, and any specific challenges you're facing..."
+                  placeholder="Tell us about your project requirements, timeline, and any specific challenges you&apos;re facing..."
                 />
               </div>
 
@@ -204,7 +204,7 @@ export default function FormsPage() {
                 Schedule Consultation
               </h2>
               <p className="text-white/80 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-                Book a free consultation with our engineering experts. We'll analyze your project requirements and provide strategic recommendations.
+                Book a free consultation with our engineering experts. We&apos;ll analyze your project requirements and provide strategic recommendations.
               </p>
             </div>
 
@@ -603,7 +603,7 @@ export default function FormsPage() {
                         value={careerForm.education}
                         onChange={(e) => setCareerForm({...careerForm, education: e.target.value})}
                         className="w-full px-4 py-3 bg-white border border-gray-300 rounded-sm focus:ring-2 focus:ring-black focus:border-transparent transition-colors duration-200"
-                        placeholder="e.g., Bachelor's in Civil Engineering"
+                        placeholder="e.g., Bachelor&apos;s in Civil Engineering"
                       />
                     </div>
                   </div>
@@ -636,7 +636,7 @@ export default function FormsPage() {
                       value={careerForm.coverLetter}
                       onChange={(e) => setCareerForm({...careerForm, coverLetter: e.target.value})}
                       className="w-full px-4 py-3 bg-white border border-gray-300 rounded-sm focus:ring-2 focus:ring-black focus:border-transparent transition-colors duration-200 resize-none"
-                      placeholder="Tell us about your background, relevant experience, and why you're interested in joining our team..."
+                      placeholder="Tell us about your background, relevant experience, and why you&apos;re interested in joining our team..."
                     />
                   </div>
                 </div>
