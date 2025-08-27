@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
           <div className="mx-auto max-w-7xl px-6">
             <div className="flex items-center justify-between py-4">
               <div className="flex items-center">
-                <a href="/">
+                <Link href="/">
                   <Image
                     src="/woolpert-logo-black.png"
                     alt="Woolpert"
@@ -35,14 +36,14 @@ export default function RootLayout({ children }) {
                     height={40}
                     className="h-8 w-auto"
                   />
-                </a>
+                </Link>
               </div>
               <nav className="hidden lg:flex items-center space-x-8">
-                <a href="/elements" className="text-gray-700 hover:text-black text-sm font-medium">ELEMENTS</a>
-                <a href="/" className="text-gray-700 hover:text-black text-sm font-medium">SIMPLE SECTIONS</a>
-                <a href="/complex-sections" className="text-gray-700 hover:text-black text-sm font-medium">COMPLEX SECTIONS</a>
-                <a href="/forms" className="text-gray-700 hover:text-black text-sm font-medium">FORMS</a>
-                <a href="/maps" className="text-gray-700 hover:text-black text-sm font-medium">MAPS</a>
+                <Link href="/elements" className="text-gray-700 hover:text-black text-sm font-medium">ELEMENTS</Link>
+                <Link href="/sections" className="text-gray-700 hover:text-black text-sm font-medium">SIMPLE SECTIONS</Link>
+                <Link href="/complex-sections" className="text-gray-700 hover:text-black text-sm font-medium">COMPLEX SECTIONS</Link>
+                <Link href="/forms" className="text-gray-700 hover:text-black text-sm font-medium">FORMS</Link>
+                <Link href="/maps" className="text-gray-700 hover:text-black text-sm font-medium">MAPS</Link>
               </nav>
             </div>
           </div>
